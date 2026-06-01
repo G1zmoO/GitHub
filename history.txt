@@ -1,0 +1,412 @@
+    1  pwd
+    2  cd ICH
+    3  pwd
+    4  cd Linux
+    5  ls -la
+    6  git status
+    7  git config
+    8  ls -la
+    9  cd ICH
+   10  cd GIT
+   11  cd GG
+   12  cd 101025-ptm/
+   13  git global --global user.name "ArtemNed"
+   14  git global -- global user.name "ArtemNed"
+   15  git config -- global user.name "ArtemNed"
+   16  git remote -
+   17  git remote -v
+   18  .ssh
+   19  cat ~/.ssh/*.pub
+   20  git config --global user.name "Artem_Ned"
+   21  git config --global user.email "artem.nedashkovs@gmail.com"
+   22  git init
+   23  ls -la
+   24  cd /users/artem
+   25  mkdir /users/git_intro
+   26  cd /c/users
+   27  mkdir /git_intro 
+   28  mkdir git_intro
+   29  mkdir C:\Users\artem\OneDrive\Рабочий стол\Linux
+   30  mkdir C:\Users\artem\OneDrive\Рабочий стол\Linux\git_intro
+   31  cd artem\OneDrive\Рабочий стол\Linux\git_intro
+   32  cd \artem\OneDrive\Рабочий стол\Linux\git_intro
+   33  cd artem\OneDrive\Рабочий стол\Linux\git_intro
+   34  cd \artem\OneDrive\Рабочий стол\Linux\git_intro
+   35  cd C:\Users\artem\OneDrive\Рабочий стол\Linux\git_intro
+   36  cd /git_intro
+   37  pwd
+   38  cd /git_intro
+   39  mkdir git_intro
+   40  cd git_intro
+   41  cd C/Users/artem/OneDrive/Рабочий стол/Linux/git_intro
+   42  cd /C/Users/artem/OneDrive/Рабочий стол/Linux/git_intro
+   43  cd /C/Users/artem/OneDrive/desktop/Linux/git_intro
+   44  cd /C/Users/artem/OneDrive/Desktop/Linux/git_intro
+   45  git init
+   46  git add image.jpg
+   47  git commit -m "pussycat_1"
+   48  git remote add origin git@github.com:G1zmoO/git_intro.git
+   49  git push
+   50  git push -u origin main 
+   51  history >> history.txt
+   52  export_file history.txt 
+   53  export_file >> history.txt 
+   54  pwd
+   55  cd git_init
+   56  cd git_intro
+   57  cd git_intro/
+   58  mkdir test
+   59  cd test
+   60  git init
+   61  git status 
+   62  touch test.txt
+   63  git status
+   64  echo test.txt "hello"
+   65  ls la
+   66  ls -la
+   67  echo "Testik Arestik" >> test.txt 
+   68  git status
+   69  echo test.txt
+   70  git add test.txt
+   71  git status
+   72  git commit -m "initial commit"
+   73  git status
+   74  echo "areeeeestik" >> test.txt
+   75  git status
+   76  git add test.txt
+   77  git status 
+   78  git remote add origin git@github.com:G1zmoO/git_intro.git
+   79  git remote -v
+   80  git push
+   81  git log
+   82  git pull
+   83  git remote remove origin 
+   84  git remote add origin git@github.com:G1zmoO/Test.git
+   85  git log 
+   86  git remote -v
+   87  git push
+   88  git push --set-upstream origin main
+   89  pwd
+   90  cd/ICH/
+   91  cd /ICH
+   92  cd /101025-ptm
+   93  cd /users/artem
+   94  cd /c
+   95  cd /users/artem
+   96  cd /Users/artem
+   97  cd /c/Users/artem
+   98  cd /git_intro
+   99  ls -la
+  100  cd /git_intro
+  101  pwd
+  102  cd ICH
+  103  cd git_intro
+  104  cd
+  105  cd git_intro
+  106  git branch test
+  107  git branch -v
+  108  git branch -d test
+  109  git checkout -b Feature
+  110  git branch -v
+  111  git status 
+  112  ls -la
+  113  git checkout main
+  114  pwd
+  115  cd desktop
+  116  ls -la
+  117  cd ich
+  118  ls -ls
+  119  cd linux
+  120  ls -la
+  121  pwd
+  122  mkdir ICH
+  123  mkdir ICH/Linux/git-branch
+  124  mkdir ICH
+  125  pwd
+  126  cd /ICH
+  127  cd ICH
+  128  mkdir Linux
+  129  cd Linux
+  130  mkdir git-branch
+  131  cd git-branch
+  132  git init
+  133  git checkout -b gitignore
+  134  curl -O https://raw.githubusercontent.com/aliaskov/bashscripts/master/.gitignore
+  135  git add .gitignore
+  136  curl -O https://raw.githubusercontent.com/aliaskov/bashscripts/master/.gitignore
+  137  git add .gitignore
+  138  git add .gitignore.txt 
+  139  git commit -m "Add .gitignoge file"
+  140  git commit -m "Add .gitignoge file"
+  141  git remote add origin https://github.com/<ваш_логин>/git-branch.git
+  142  git remote add origin git@github.com:G1zmoO/git-branch.git
+  143  git push -u origin gitignore.txt
+  144  git branch -M main
+  145  git init
+  146  git cheeckòut -b gitignore
+  147  git checkout -b gitignore
+  148  git add .gitignore.txt 
+  149  git commit - "Add .gitignore file"
+  150  git commit -m "Add .gitignore file"
+  151  git remote add origin git@github.com:G1zmoO/git-branch.git
+  152  git push -u origin gitignore
+  153  cd
+  154  ssh ec2-user@linux.itcareerhub.de
+  155  cd ICH/Linux/
+  156  git clone https://github.com/G1zmoO/new_repo
+  157  git checkout -b feature
+  158  echo "Readme update" >> README.md
+  159  cd new_repo/
+  160  echo "readme update" >> README.md
+  161  echo "temporary ignore rules" >> .gitignore
+  162  echo "temporary ignore rules" >> .gitignore.txt 
+  163  git add README.md .gitignore.txt 
+  164  git commit -m "update readme and gitignore"
+  165  git push -u origin feature
+  166  git checkout -b feature
+  167  git push -u origin feature
+  168  git commit --amend -m "Update Readme .gitignore ammend"
+  169  git push --force origin feature
+  170  git checkout main
+  171  git merge feature
+  172  cd ICH/Linux/new_repo/
+  173  git checkout main
+  174  git merge feature
+  175  CD ICH/Linux/new_repo/
+  176  CD ICH/Linux/new_repo
+  177  CD ICH/Linux
+  178  git checkout main
+  179  git checkout main
+  180  cd ICH/
+  181  git checkout main
+  182  git log
+  183  cd /LInux
+  184  cd
+  185  git checkout main
+  186  cd ICH/Linux/new_repo/
+  187  git checkout main
+  188  git push origin main
+  189  history > history.txt
+  190  git add history.txt 
+  191  git commit -m "add history of commands"
+  192  git push origin main
+  193  git checkout main
+  194  pwd
+  195  cd ICH/Linux/
+  196  git checkout main
+  197  cd ..
+  198  cd ..
+  199  cd ..
+  200  cd 
+  201  ls -al
+  202  rm -rf .git
+  203  cd ICH/
+  204  ls
+  205  cd Linux/
+  206  ls
+  207  mkdir fork-test
+  208  cd fork-test/
+  209  git branch -a
+  210  git branch 
+  211  git clone git@github.com:G1zmoO/Fork-Test.git
+  212  ls -la
+  213  cd Fork-Test/
+  214  git branch -a
+  215  git checkout `Develop
+  216  git checkout Develop
+  217  git checkout Develop
+  218  cd ..
+  219  cd Fork-Test/
+  220  cd ..
+  221  cd ..
+  222  git clone git@github.com:G1zmoO/Fork-Test.git
+  223  cd Fork-Test/
+  224  git checkout Develop
+  225  git checkout -b ArtemNed
+  226  nano test_fork.txt
+  227  ls -la
+  228  git status 
+  229  git add .
+  230  git commit -m "new file test_fork"
+  231  git push 
+  232  git push --set-upstream origin ArtemNed
+  233  git config --global -l
+  234  pwd
+  235  cd \Users\artem\Desktop\ICH\LINUX
+  236  cd Users\artem\Desktop\ICH\LINUX
+  237  cd ICH
+  238  cd Linux
+  239  git clone git@github.com:G1zmoO/200226-wdm.git
+  240  cd 200226-wdm/
+  241  ls -al
+  242  cd..
+  243  cd ..
+  244  ls - la
+  245  ls -la
+  246  mkdir GitTest_200226-wdm
+  247  cd GitTest_200226-wdm/
+  248  nano song.txt
+  249  git init
+  250  ls
+  251  ls -ls
+  252  ls -la
+  253  git status
+  254  git add .
+  255  git status
+  256  git commit -m "Inital commit"
+  257  git status
+  258  git log
+  259  nano song.txt 
+  260  git status
+  261  git commit -am "Updated with few sents"
+  262  git log
+  263  git remote -v
+  264  git remote add origin git@github.com:G1zmoO/GitTest_200226-wdm.git
+  265  git remote -v
+  266  git branch -v
+  267  git push -u origin main 
+  268  git log
+  269  git status
+  270  git remote -v
+  271  git branch -v
+  272  cd ..
+  273  git clone git@github.com:G1zmoO/Practice_Test.git
+  274  cd Practice_Test/
+  275  nano test_file.txt
+  276  git status 
+  277  git add test_file.txt 
+  278  git commit -m "initial commit"
+  279  git log
+  280  git remote -v
+  281  git push origin main 
+  282  cd
+  283  pwd
+  284  ls -al
+  285  cd ICH/
+  286  ls -la
+  287  cd Linux/
+  288  ls la
+  289  ls -la
+  290  git clone https://github.com/G1zmoO/Git_Work_200226-wdm
+  291  ls -la
+  292  cd Git_Work_200226-wdm/
+  293  ls -la
+  294  nano filemover.sh 
+  295  ls -la
+  296  git remote -v
+  297  git add filemover.sh 
+  298  git status 
+  299  git commit -m "Changes,only exist\unavaliable task"
+  300  git push origin main
+  301  cd ..
+  302  ls -la
+  303  cd Git_Work_200226-wdm/
+  304  ls -la
+  305  nano filemover.sh 
+  306  git status 
+  307  git add filemover.sh 
+  308  git status 
+  309  git commit -m "also changes -r to -v"
+  310  git push origin main
+  311  ..
+  312  cd ..
+  313  cd ICH/Linux/
+  314  ls -la
+  315  cd Git_Work_200226-wdm/
+  316  git status 
+  317  git pull
+  318  ls -la
+  319  nano autocommit.sh 
+  320  git branch -v
+  321  git status 
+  322  nano filemover.sh 
+  323  git merge --abort 
+  324  git status 
+  325  git commit -am "filemover was deleted"
+  326  git pull
+  327  git status 
+  328  nano filemover.sh 
+  329  git status 
+  330  cd..
+  331  cd ..
+  332  ls -la
+  333  rm -rf Git_Work_200226-wdm/
+  334  ls -la
+  335  git clone git@github.com:G1zmoO/Git_Work_200226-wdm.git
+  336  ls -la
+  337  cd Git_Work_200226-wdm/
+  338  git checkout -b ArtemN
+  339  ls -la
+  340  nano autocommit.sh 
+  341  ls -la
+  342  mv 'autocommit(ArtemN).sh' autocommit-ArtemN.sh
+  343  ls -la
+  344  git status 
+  345  git add 
+  346  git add .
+  347  git commit 
+  348  ls -la
+  349  git status 
+  350  git push
+  351  git push --set-upstream origin ArtemN
+  352  ls -la
+  353   git branch -v
+  354  CD ..
+  355  cd..
+  356  cd ..
+  357  cd Git_Work_200226-wdm/
+  358  cd ..
+  359  pwd
+  360  /cd ICH/
+  361  ls -la
+  362  cd ICH/Linux/
+  363  ls -la
+  364  mkdir git_intro
+  365  la -la
+  366  ls -la
+  367  ls -la
+  368  cd git_intro
+  369  ls -la
+  370  ls -la
+  371  git init
+  372  git status 
+  373  git add photo.jpg 
+  374  git commit -m "Added cat photo"
+  375  git remote add origin git@github.com:G1zmoO/git_intro.git
+  376  git push -u origin main 
+  377  cd ..
+  378  ls -la
+  379  mkdir git-branch
+  380  cd git-branch/
+  381  git init
+  382  git checkout -b gitignore
+  383  nano .gitignore
+  384  git add .gitignore 
+  385  git commit -m "Add gitignore"
+  386  git branch -M main
+  387  git remote add origin git@github.com:G1zmoO/git-branch.git
+  388  git push -u origin gitignore
+  389  git branch -M gitignore
+  390  git push -u origin gitignore
+  391  cd ..
+  392  cd ICH/Linux/
+  393  git clone git@github.com:G1zmoO/GitHub.git
+  394  cd GitHub/
+  395  cd ..
+  396  mv GitHub/
+  397  mv --GitHub
+  398  ls -ls
+  399  git clone git@github.com:G1zmoO/GitHub.git
+  400  cd GitHub/
+  401  git checkout -b feature
+  402  nano README.md 
+  403  nano .gitignore 
+  404  git status 
+  405  git add README.md .gitignore 
+  406  git commit -m "Feaure changes"
+  407  git push -u origin feature  
+  408  git commit --amend -m "feature ammend"
+  409  git push --force
+  410  git checkout main
+  411  git merge feature
+  412  history > history.txt
